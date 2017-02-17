@@ -1,0 +1,19 @@
+{
+  "name": "fender-web-fonts",
+  "version": "1.0.0",
+  "description": "Fender's web fonts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenderdigital/fender-web-fonts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenderdigital/fender-web-fonts/issues"
+  },
+  "homepage": "https://github.com/fenderdigital/fender-web-fonts#readme"
+}
