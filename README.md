@@ -1,33 +1,38 @@
 # Fender Web Fonts
 
+## Quick Start
+
+**In Development:**
+
+Add:
+
+`<link rel="stylesheet" href="https://rawgit.com/fenderdigital/fender-web-fonts/master/fonts/fonts.css">`
+
+to the `head` of your project
+
+**In Production:**
+
+TBD
+
 ## Usage
-
-Usage is class based, mapping to the following typefaces.
-
-`.source-sans`
----
 
 ```
 @font-face {
   font-family: 'SourceSansPro-Regular';
-  font-weight: 400;
-  font-style: normal;
   src: url(<relative_path>/SourceSansPro-Regular.otf);
 }
 ```
 
-`.source-sans-bold`
+`.source-sans-b` **(bold)**
 ---
 ```
 @font-face {
   font-family: 'SourceSansPro-Bold';
-  font-weight: 800;
-  font-style: normal;
   src: url(<relative_path>/SourceSansPro-Bold.otf);
 }
 ```
 
-`.source-sans-it` _(italic)_
+`.source-sans-i` _(italic)_
 ---
 ```
 @font-face {

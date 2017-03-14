@@ -1,14 +1,10 @@
 @font-face {
   font-family: 'SourceSansPro-Regular';
-  font-weight: 400;
-  font-style: normal;
   src: url(./SourceSansPro-Regular.otf);
 }
 
 @font-face {
   font-family: 'SourceSansPro-Bold';
-  font-weight: 800;
-  font-style: normal;
   src: url(./SourceSansPro-Bold.otf);
 }
 
@@ -19,22 +15,13 @@
 
 @font-face {
   font-family: 'FuturaPT-Book';
-  src: url(./ParaType-FuturaPTBook.eot);
-  src: url(./ParaType-FuturaPTBook.eot?#iefix) format('embedded-opentype'),
-    url(./ParaType-FuturaPTBook.woff2) format('woff2'),
-    url(./ParaType-FuturaPTBook.woff) format('woff'),
-    url(./ParaType-FuturaPTBook.ttf) format('truetype');
+  src: url(./ParaType-FuturaPTBook.otf);
 }
 
 @font-face {
   font-family: 'FuturaPT-Heavy';
-  src: url(./ParaType-FuturaPTHeavy.eot);
-  src: url(./ParaType-FuturaPTHeavy.eot?#iefix) format('embedded-opentype'),
-    url(./ParaType-FuturaPTHeavy.woff2) format('woff2'),
-    url(./ParaType-FuturaPTHeavy.woff) format('woff'),
-    url(./ParaType-FuturaPTHeavy.ttf) format('truetype');
+  src: url(./ParaType-FuturaPTHeavy.otf);
 }
-
 
 .source-sans {
   font-family: "SourceSansPro-Regular",
@@ -47,7 +34,7 @@
                sans-serif;
 }
 
-.source-sans-bold {
+.source-sans-b {
   font-family: "SourceSansPro-Bold",
                -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
@@ -58,7 +45,7 @@
                sans-serif;
 }
 
-.source-sans-it {
+.source-sans-i {
   font-family: "SourceSansPro-It",
                -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
