@@ -9,7 +9,7 @@ Add:
 
 **In Production:**
 
-Add: `<link rel="stylesheet" href="https://cdn.rawgit.com/fenderdigital/fender-web-fonts/`TAGVERSION`/fonts/fonts.css">` to the `head` of your project
+Add: `<link rel="stylesheet" href="https://cdn.rawgit.com/fenderdigital/fender-web-fonts/1.0.0/fonts/fonts.css">` to the `head` of your project
 
 ## Usage
 
