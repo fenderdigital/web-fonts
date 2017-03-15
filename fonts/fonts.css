@@ -1,26 +1,26 @@
 @font-face {
   font-family: 'SourceSansPro-Regular';
-  src: url(./SourceSansPro-Regular.otf);
+  src: url(./SourceSansPro-Regular.otf) format("opentype");
 }
 
 @font-face {
   font-family: 'SourceSansPro-Bold';
-  src: url(./SourceSansPro-Bold.otf);
+  src: url(./SourceSansPro-Bold.otf) format("opentype");
 }
 
 @font-face {
   font-family: 'SourceSansPro-It';
-  src: url(./SourceSansPro-It.otf);
+  src: url(./SourceSansPro-It.otf) format("opentype");
 }
 
 @font-face {
   font-family: 'FuturaPT-Book';
-  src: url(./ParaType-FuturaPTBook.otf);
+  src: url(./ParaType-FuturaPTBook.otf) format("opentype");
 }
 
 @font-face {
   font-family: 'FuturaPT-Heavy';
-  src: url(./ParaType-FuturaPTHeavy.otf);
+  src: url(./ParaType-FuturaPTHeavy.otf) format("opentype");
 }
 
 .source-sans {
