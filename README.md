@@ -9,51 +9,8 @@ Add:
 
 **In Production:**
 
-Add: `<link rel="stylesheet" href="https://cdn.rawgit.com/fenderdigital/fender-web-fonts/1.0.0/fonts/fonts.css">` to the `head` of your project
+Add: `<link rel="stylesheet" href="https://cdn.rawgit.com/fenderdigital/fender-web-fonts/1.0.1/fonts/fonts.css">` to the `head` of your project
 
 ## Usage
 
-`.source-sans-b`
-
-```
-@font-face {
-  font-family: 'SourceSansPro-Regular';
-  src: url(<relative_path>/SourceSansPro-Regular.otf) format("opentype");
-}
-```
-
-`.source-sans-b` **(bold)**
----
-```
-@font-face {
-  font-family: 'SourceSansPro-Bold';
-  src: url(<relative_path>/SourceSansPro-Bold.otf) format("opentype");
-}
-```
-
-`.source-sans-i` _(italic)_
----
-```
-@font-face {
-  font-family: 'SourceSansPro-It';
-  src: url(<relative_path>/SourceSansPro-It.otf) format("opentype");
-}
-```
-
-`.futura-book`
----
-```
-@font-face {
-  font-family: 'FuturaPT-Book';
-  src: url(<relative_path>/ParaType-FuturaPTBook.otf) format("opentype");
-}
-```
-
-`.futura-heavy`
----
-```
-@font-face {
-  font-family: 'FuturaPT-Heavy';
-  src: url(<relative_path>/ParaType-FuturaPTHeavy.otf) format("opentype");
-}
-```
+Class based usage as part of the Fender Design System. Check out the [Typography Docs](https://fenderdigital.github.io/tachyons/typefaces/)

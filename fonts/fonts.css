@@ -15,11 +15,13 @@
 
 @font-face {
   font-family: 'FuturaPT-Book';
+  font-variant-ligatures: none;
   src: url(./ParaType-FuturaPTBook.otf) format("opentype");
 }
 
 @font-face {
   font-family: 'FuturaPT-Heavy';
+  font-variant-ligatures: none;
   src: url(./ParaType-FuturaPTHeavy.otf) format("opentype");
 }
 
