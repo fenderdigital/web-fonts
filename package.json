@@ -1,8 +1,8 @@
 {
-  "name": "fender-web-fonts",
-  "version": "1.0.0",
+  "name": "web-fonts",
+  "version": "1.0.2",
   "description": "Fender Web Fonts",
-  "main": "index.js",
+  "main": "dist/fonts.min.css",
   "scripts": {
   "start": "npm run build:css && npm run build:minify && npm run copy",
   "build:css": "tachyons src/fonts.css > dist/fonts.css",
@@ -11,14 +11,14 @@
 },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fenderdigital/fender-web-fonts.git"
+    "url": "git+https://github.com/fenderdigital/web-fonts.git"
   },
   "author": "Fender Digital",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fenderdigital/fender-web-fonts/issues"
+    "url": "https://github.com/fenderdigital/web-fonts/issues"
   },
-  "homepage": "https://github.com/fenderdigital/fender-web-fonts#readme",
+  "homepage": "https://github.com/fenderdigital/web-fonts#readme",
   "devDependencies": {
     "copyfiles": "^1.2.0",
     "tachyons-cli": "^1.0.10"
