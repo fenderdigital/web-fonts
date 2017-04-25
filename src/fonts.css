@@ -1,28 +1,30 @@
 @font-face {
   font-family: 'SourceSansPro-Regular';
-  src: url(fonts/SourceSansPro-Regular.otf) format("opentype");
+  src: url('fonts/SourceSansPro-Regular.otf') format("opentype");
 }
 
 @font-face {
   font-family: 'SourceSansPro-Bold';
-  src: url(fonts/SourceSansPro-Bold.otf) format("opentype");
+  src: url('fonts/SourceSansPro-Bold.otf') format("opentype");
 }
 
 @font-face {
   font-family: 'SourceSansPro-It';
-  src: url(fonts/SourceSansPro-It.otf) format("opentype");
+  src: url('fonts/SourceSansPro-It.otf') format("opentype");
 }
 
 @font-face {
   font-family: 'FuturaPT-Book';
   font-variant-ligatures: none;
-  src: url(fonts/ParaType-FuturaPTBook.otf) format("opentype");
+  src: url('fonts/ParaType-FuturaPTBook.woff'),
+       url('fonts/ParaType-FuturaPTBook.otf') format("opentype");
 }
 
 @font-face {
   font-family: 'FuturaPT-Heavy';
   font-variant-ligatures: none;
-  src: url(fonts/ParaType-FuturaPTHeavy.otf) format("opentype");
+  src: url('fonts/ParaType-FuturaPTHeavy.woff'),
+       url('fonts/ParaType-FuturaPTHeavy.otf') format("opentype");
 }
 
 .source-sans {
