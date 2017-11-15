@@ -27,6 +27,12 @@
        url('fonts/ParaType-FuturaPTHeavy.otf') format("opentype");
 }
 
+@font-face {
+  font-family: 'FuturaPT-CondExtraBold';
+  font-variant-ligatures: none;
+  src: url('fonts/ParaType-FuturaPTCondExtraBold.woff'),
+       url('fonts/ParaType-FuturaPTCondExtraBold.otf') format("opentype");
+}
 .source-sans {
   font-family: "SourceSansPro-Regular",
                -apple-system, BlinkMacSystemFont,
@@ -60,8 +66,8 @@
                sans-serif;
 }
 
-.futura-heavy {
-  font-family: "FuturaPT-Heavy",
+.futura-book {
+    font-family: "FuturaPT-Book",
                -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                'helvetica neue', helvetica,
@@ -71,8 +77,19 @@
                sans-serif;
 }
 
-.futura-book {
-    font-family: "FuturaPT-Book",
+.futura-cond-extra-b {
+    font-family: "FuturaPT-CondExtraBold",
+               -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
+}
+
+.futura-heavy {
+  font-family: "FuturaPT-Heavy",
                -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                'helvetica neue', helvetica,
