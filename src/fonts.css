@@ -1,106 +1,96 @@
 @font-face {
-  font-family: 'SourceSansPro-Regular';
-  src: url('fonts/SourceSansPro-20190717-180900-5e1d162e.woff2') format('woff2'), url('fonts/SourceSansPro-Regular.otf') format("opentype");
+  font-family: "SourceSansPro-Regular";
+  src: url("fonts/SourceSansPro-20190717-180900-5e1d162e.woff2") format("woff2"),
+    url("fonts/SourceSansPro-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SourceSansPro-Bold';
-  src: url('fonts/sourcesanspro-bold-webfont.woff2') format("woff2"), url('fonts/SourceSansPro-Bold.otf') format("opentype");
+  font-family: "SourceSansPro-Bold";
+  src: url("fonts/sourcesanspro-bold-webfont.woff2") format("woff2"),
+    url("fonts/SourceSansPro-Bold.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SourceSansPro-It';
-  src: url('fonts/sourcesanspro-italic-webfont.woff2') format("woff2"), url('fonts/SourceSansPro-It.otf') format("opentype");
+  font-family: "SourceSansPro-It";
+  src: url("fonts/sourcesanspro-italic-webfont.woff2") format("woff2"),
+    url("fonts/SourceSansPro-It.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'FuturaPT-Book';
+  font-family: "FuturaPT-Book";
   font-variant-ligatures: none;
-  src: url('fonts/30E4C5_0_0.woff2') format('woff2'), url('fonts/ParaType-FuturaPTBook.woff') format("woff"), url('fonts/ParaType-FuturaPTBook.otf') format("opentype");
+  src: url("fonts/30E4C5_0_0.woff2") format("woff2"),
+    url("fonts/ParaType-FuturaPTBook.woff") format("woff"),
+    url("fonts/ParaType-FuturaPTBook.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'FuturaPT-Heavy';
+  font-family: "FuturaPT-Heavy";
   font-variant-ligatures: none;
-  src: url('fonts/30E4C5_1_0.woff2') format("woff2"), url('fonts/ParaType-FuturaPTHeavy.woff') format("woff"), url('fonts/ParaType-FuturaPTHeavy.otf') format("opentype");
+  src: url("fonts/30E4C5_1_0.woff2") format("woff2"),
+    url("fonts/ParaType-FuturaPTHeavy.woff") format("woff"),
+    url("fonts/ParaType-FuturaPTHeavy.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'FuturaPT-CondExtraBold';
+  font-family: "FuturaPT-CondExtraBold";
   font-variant-ligatures: none;
-  src: url('fonts/ParaType-FuturaPTCondExtraBold.woff'),
-       url('fonts/ParaType-FuturaPTCondExtraBold.otf') format("opentype");
+  src: url("fonts/ParaType-FuturaPTCondExtraBold.woff"),
+    url("fonts/ParaType-FuturaPTCondExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FuturaPT-Demi";
+  font-variant-ligatures: none;
+  src: url("fonts/ParaType-FuturaPTDemi.woff") format("woff"),
+    url("fonts/ParaType-FuturaPTBook.otf") format("opentype");
 }
 
 .source-sans {
-  font-family: "SourceSansPro-Regular",
-               -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  font-family: "SourceSansPro-Regular", -apple-system, BlinkMacSystemFont,
+    "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto,
+    "segoe ui", arial, sans-serif;
 }
 
 .source-sans-b {
-  font-family: "SourceSansPro-Bold",
-               -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  font-family: "SourceSansPro-Bold", -apple-system, BlinkMacSystemFont,
+    "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto,
+    "segoe ui", arial, sans-serif;
 }
 
 .source-sans-i {
-  font-family: "SourceSansPro-It",
-               -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  font-family: "SourceSansPro-It", -apple-system, BlinkMacSystemFont,
+    "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto,
+    "segoe ui", arial, sans-serif;
 }
 
 .futura-book {
-    font-family: "FuturaPT-Book",
-               -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  font-family: "FuturaPT-Book", -apple-system, BlinkMacSystemFont, "avenir next",
+    avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
 }
 
 .futura-cond-extra-b {
-    font-family: "FuturaPT-CondExtraBold",
-               -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  font-family: "FuturaPT-CondExtraBold", -apple-system, BlinkMacSystemFont,
+    "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto,
+    "segoe ui", arial, sans-serif;
 }
 
 .futura-heavy {
-  font-family: "FuturaPT-Heavy",
-               -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  font-family: "FuturaPT-Heavy", -apple-system, BlinkMacSystemFont,
+    "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto,
+    "segoe ui", arial, sans-serif;
+}
+
+.futura-demi {
+  font-family: "FuturaPT-Demi", -apple-system, BlinkMacSystemFont, "avenir next",
+    avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
 }
