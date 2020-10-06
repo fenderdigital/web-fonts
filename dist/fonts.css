@@ -3,6 +3,11 @@
 @font-face { font-family: "SourceSansPro-It"; src: url( "fonts/sourcesanspro-italic-webfont.woff2" ) format( "woff2" ), url( "fonts/SourceSansPro-It.otf" ) format( "opentype" ); font-display: swap; }
 @font-face { font-family: "FuturaPT-Book"; -webkit-font-variant-ligatures: none; font-variant-ligatures: none; src: url( "fonts/30E4C5_0_0.woff2" ) format( "woff2" ), url( "fonts/ParaType-FuturaPTBook.woff" ) format( "woff" ), url( "fonts/ParaType-FuturaPTBook.otf" ) format( "opentype" ); font-display: swap; }
 @font-face { font-family: "FuturaPT-Heavy"; -webkit-font-variant-ligatures: none; font-variant-ligatures: none; src: url( "fonts/30E4C5_1_0.woff2" ) format( "woff2" ), url( "fonts/ParaType-FuturaPTHeavy.woff" ) format( "woff" ), url( "fonts/ParaType-FuturaPTHeavy.otf" ) format( "opentype" ); font-display: swap; }
+/* @font-face{
+  font-family:"FuturaPT-HeavyObl";
+  src: url("fonts/ParaType-FuturaPTHeavyObl.woff") format("woff");
+} */
+@font-face { font-family: "FuturaPT-HeavyObl"; src: url( "fonts/ParaType-FuturaPTHeavyObl.woff2" ) format( "woff2" ), url( "fonts/ParaType-FuturaPTHeavyObl.woff" ) format( "woff" ); }
 @font-face { font-family: "FuturaPT-CondExtraBold"; -webkit-font-variant-ligatures: none; font-variant-ligatures: none; src: url( "fonts/ParaType-FuturaPTCondExtraBold.woff" ), url( "fonts/ParaType-FuturaPTCondExtraBold.otf" ) format( "opentype" ); }
 @font-face { font-family: "FuturaPT-Demi"; -webkit-font-variant-ligatures: none; font-variant-ligatures: none; src: url( "fonts/ParaType-FuturaPTDemi.woff2" ) format( "woff2" ); }
 .source-sans { font-family: "SourceSansPro-Regular", -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif; }

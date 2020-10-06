@@ -39,6 +39,12 @@
   font-display: swap;
 }
 
+@font-face{
+  font-family:"FuturaPT-HeavyObl";
+  src:url("fonts/ParaType-FuturaPTHeavyObl.woff2") format("woff2"),
+  url("fonts/ParaType-FuturaPTHeavyObl.woff") format("woff");
+}
+
 @font-face {
   font-family: "FuturaPT-CondExtraBold";
   font-variant-ligatures: none;
