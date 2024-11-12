@@ -1,4 +1,4 @@
-# Fender Web Fonts
+# Fender Web Fonts (Deprecated)
 
 ## Quick Start
 
